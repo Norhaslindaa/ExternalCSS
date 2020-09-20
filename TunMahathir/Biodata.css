@@ -1,45 +1,13 @@
 body {
     margin: 0;
     margin-top: 50px;
-    font-family: sans-serif; /* Add this line */
+    font-family: sans-serif; 
 }
 
-header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    line-height: 50px;
-    background-color: #eee;
-}
 
-header * {
-    display: inline;
-    height: 50px;
-}
-
-header ul {
-    padding: 0;
-}
-
-header li {
-    margin-left: 20px;
-}
-
-section {
-    height: 100vh;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#hero .profile-img {
-    width: 300px;
-    border-radius: 50%; /* Add this line */
+#hello h2 {
+    
+font-size:44px;	
 }
 
 footer {
@@ -47,25 +15,36 @@ footer {
     padding: 50px;
 }
 
-/* Add everything below here */
 
 * {
-    background-color: yellow;
+  background-color: Yellow ;
 }
 
-#hero h1 {
-    font-size: 3em;
+h1, h2
+{
+color: Blue; 
 }
 
-.section h2 {
-    font-size: 2.5em;
+ td {
+  padding-left: .5em;
+  padding-right: .5em;
+  border: 1px solid #900;
+  background-color: #ffc;
+}
+	 . gambar {
+		 height: 300px;
+	width: 500px;
 }
 
-.section h3 {
-    font-size: 1.5em;
+div{
+	width: 100%;
+	background-color: grey;
 }
-
-header a {
-    text-decoration: none;
-    color: black;
-}
+	
+	. section {
+		 color: #900;
+	}
+	
+table {
+	border: 3px solid;
+	width: 40%;
